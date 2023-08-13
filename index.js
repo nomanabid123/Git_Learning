@@ -40,3 +40,40 @@ c = 10;
 // c = c%2 
 c %= 2;
 console.log(c);
+//comparison operators
+// == === != !== > < >= <=
+//== 
+a = 5;
+b = 9;
+console.log(a == b);
+// === 
+//!=     !=
+console.log(a != b);
+// !== 
+// > < >= <=
+console.log(a > b);
+console.log(a < b);
+b = 9;
+console.log(a >= b);
+console.log(a <= b);
+//logical operators
+// && || !
+// &&  ==> and
+// || ==> or
+// ! ==> not
+// && ==> and
+// &&
+// 1 && 1 ==> 1 //true
+// 1 && 0 ==> 0 //false
+// 0 && 1 ==> 0 //false
+// 0 && 0 ==> 0 //false
+let ahmedAge = 20;
+let mohamedAge = 30;
+let aliAge = 40;
+console.log((ahmedAge > mohamedAge) && (ahmedAge < aliAge));
+// || ==> or
+//  1 || 1 ==> 1 //true
+//  1 || 0 ==> 1 //true
+//  0 || 1 ==> 1 //true
+//  0 || 0 ==> 0 //false
+console.log((ahmedAge > mohamedAge) || (ahmedAge < aliAge));

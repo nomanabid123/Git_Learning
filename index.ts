@@ -30,3 +30,25 @@ let d = c--;
 console.log(b);
 console.log(c);
 console.log(d);
+//assignment operators
+//= += -= *= /= %=
+
+c= 10;
+// c = c + 1;
+//c = c-1
+
+// c += 1
+// c-=1
+
+// console.log(c);
+
+//*=
+// c= c*2
+// c *= 2
+//c = c/2  ==>2
+// c/=2
+
+// c = c%2 
+c %= 2
+console .log(c);
+
